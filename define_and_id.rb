@@ -11,17 +11,18 @@
 
 
 "Hello World".include?("Hello")
-
+# The include? method is called on the "Hello World" string object with the parameter of including "Hello", the return will be true
 
 "Hello World".end_with?("Hello")
-
+# the end_with? method is called on the "hello world" string object with the parameter of the string ending with "hello", the method returns false, as the string does not end with "hello"
 
 "Hello World".end_with?("rld")
-
+# the end_with? method is called on the "hello world" string object with the parameter of the string ending with "rld", the method returns true, as the string ends with "rld" regardless of any words, since strings are just lists of characters
 
 12.even?
-
+# the .even? method is called on the 12 integer object and will return true, since 12 is an even number
 
 18.next
+# the .next method is called on the 18 integer object and will return 19, as that is the next number in sequence
 
 
